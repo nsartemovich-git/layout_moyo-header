@@ -1,5 +1,6 @@
 :root {
   --color-blue: #00acdc;
+  --header-height: 60px;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
+  height: var(--header-height);
 }
 
 .nav__list {
@@ -38,7 +40,7 @@ body {
 }
 
 .nav__link {
-  line-height: 60px;
+  line-height: var(--header-height);
   color: #000;
   text-decoration: none;
   cursor: pointer;
